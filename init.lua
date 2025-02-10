@@ -629,6 +629,10 @@ require('lazy').setup({
         -- ts_ls = {},
         --
 
+        ruby_lsp = {
+          cmd = { vim.fn.expand '~/.asdf/shims/ruby-lsp' },
+        },
+
         lua_ls = {
           -- cmd = { ... },
           -- filetypes = { ... },
